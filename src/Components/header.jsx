@@ -34,9 +34,11 @@ const Header = () => {
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
                 <NavLink
-                to="/"
-                  className={({isactive}) =>
-                    `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0 ${isactive ? " bg-orange-800" : "bg-white"}`
+                  to="/"
+                  className={({ isactive }) =>
+                    `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0 ${
+                      isactive ? " bg-orange-800" : "bg-white"
+                    }`
                   }
                 >
                   Home
@@ -44,27 +46,35 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                to="/About"
-                  className={({isactive}) =>
-                    `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0 ${isactive ? " bg-orange-800" : "bg-white"}`
+                  to="/About"
+                  className={({ isactive }) =>
+                    `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0 ${
+                      isactive ? " bg-orange-800" : "bg-white"
+                    }`
                   }
                 >
                   About
-                </NavLink >
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/Contact"
-                  className={({isactive}) =>
-                    `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0 ${isactive ? " bg-orange-800" : "bg-white"}`
+                <NavLink
+                  to="/Contact"
+                  className={({ isactive }) =>
+                    `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0 ${
+                      isactive ? " bg-orange-800" : "bg-white"
+                    }`
                   }
                 >
                   Contact
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/Github"
-                  className={({isactive}) =>
-                    `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0 ${isactive ? " bg-orange-800" : "bg-white"}`
+                <NavLink
+                  to="/Github"
+                  className={({ isactive }) =>
+                    `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0 ${
+                      isactive ? " bg-orange-800" : "bg-white"
+                    }`
                   }
                 >
                   Github
